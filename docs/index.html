@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Count Up Animation</title>
+    <!-- FontAwesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+ <center></center>
+  <body>
+
+    <div class="wrapper">
+      <div class="container">
+        <i class="fa-solid fa-superscript"></i>
+        <span class="num" id="num">A</span>
+        <span class="text"></span>
+      </div>
+
+      <div class="container">
+        <i class="fa-solid fa-superscript"></i>
+        <span class="num" id="num1" > A</span>
+        <span class="text"></span>
+      </div>
+
+      <div class="container">
+        <i class="fa-solid fa-superscript"></i>
+        <span class="num" id="num2" >A</span>
+        <span class="text"></span>
+      </div>
+
+      <div class="container">
+        <i class="fa-solid fa-superscript"></i>
+        <span class="num" id="num3" >A</span>
+        <span class="text"></span>
+      </div>
+    </div>
+    <div><center>
+      <div class="wrapper2">
+        <div class="container" style="width: 40%; padding: 3.7%;">
+          <i class="fa-solid fa-p"></i><br>
+          <input type="text" class="num form__field" id="text" placeholder="Digite a palavra a ser criptografada" maxlength="4">
+          <span class="text"></span>
+        </div></div></center> <div class="wrapper3">
+        <button class="container" style="width: auto; height: auto; cursor: pointer;" onclick="criptografar()">
+          
+          <span class = "num" style="text-align: center; ">Criptografar</span> 
+         </button>
+        <button class="container" style="width: auto; height: auto; cursor: pointer;" onclick="descriptografar()">
+          
+         <span class = "num" style="text-align: center;">Descriptografar</span> 
+        </button></div>
+        
+  </div>
+
+        <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
